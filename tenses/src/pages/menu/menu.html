@@ -1,0 +1,44 @@
+<!--
+  Generated template for the Menu page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Learning App</ion-title>
+    <ion-buttons start>
+        <button ion-button color="secondary" icon-only >
+          <ion-icon name="appstore"></ion-icon>
+        </button>
+      </ion-buttons>
+    <ion-buttons end>
+        <button ion-button color="secondary" icon-only (click)="SrchPage()" >
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+  <img src="img/ten.jpg"/>
+  </ion-card>
+  <P>
+All the topics in this app are covered in depth and in a most simple way.
+ </P>
+<ion-card-content>
+   <button ion-button icon-right color="secondary" round (click)="SPage()" (click)="presentToast()">
+     Lets Start
+     <ion-icon name="arrow-dropright-circle"></ion-icon>
+   </button>
+ </ion-card-content>
+ 
+   
+  <ion-card-content>
+   
+      <ion-icon name="arrow-dropright-circle"></ion-icon>
+    
+  </ion-card-content>
+</ion-content>
